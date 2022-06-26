@@ -1,10 +1,12 @@
 import React from 'react'
-
+import NotFound from '../Img/nopage.svg'
 function NoPage() {
   return (
-    <div>
-      <h1>Page Not Found</h1>
-    </div>
+    <>
+      <div className='Container-fluid NotFound'>
+        <img src={NotFound} alt='NoImage'/>
+      </div>
+    </>
   )
 }
 
