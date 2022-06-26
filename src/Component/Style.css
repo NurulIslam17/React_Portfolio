@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+.tech{
+  color: rgb(255, 10, 10);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.nur{
+  color: rgb(254, 255, 254);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.Logo{
+  background-color: rgb(39, 83, 69);
+  padding: 12px;
+  border-radius: 50%;
+}
