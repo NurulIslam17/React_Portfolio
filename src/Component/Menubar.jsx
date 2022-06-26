@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 
 function Menubar() {
   return (
@@ -9,9 +9,12 @@ function Menubar() {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg bg-white">
               <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/">
-                  <span className="Logo"><span className="tech">Tech</span><span className="nur">Nur</span></span>
-                </NavLink>
+                <Link className="navbar-brand" to="/">
+                  <span className="Logo">
+                    <span className="tech">Tech</span>
+                    <span className="nur">Cent</span>
+                  </span>
+                </Link>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -30,27 +33,47 @@ function Menubar() {
                 >
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/">
+                      <NavLink
+                      
+                        className="nav-link"
+                        to="/"
+                      >
                         Home
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/about">
+                      <NavLink
+                      
+                        className="nav-link"
+                        to="/about"
+                      >
                         About
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/skill">
+                      <NavLink
+                      
+                        className="nav-link"
+                        to="/skill"
+                      >
                         Skill
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/service">
+                      <NavLink
+                      
+                        className="nav-link"
+                        to="/service"
+                      >
                         Service
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/contact">
+                      <NavLink
+                      
+                        className="nav-link"
+                        to="/contact"
+                      >
                         Contact
                       </NavLink>
                     </li>
