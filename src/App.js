@@ -11,7 +11,8 @@ import Menubar from "./Component/Menubar";
 import NoPage from "./Component/NoPage";
 import './Component/Style.css';
 
-function App() {
+function App() 
+{
   return (
     <>
       <Menubar />
