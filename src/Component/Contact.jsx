@@ -1,9 +1,10 @@
 import React from 'react'
+import Common from './Common';
 
 function Contact() {
   return (
     <div>
-      <h1>Contact</h1>
+      <Common/>
     </div>
   )
 }
