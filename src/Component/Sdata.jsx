@@ -1,24 +1,35 @@
-import img1 from '../Img/Web (1).svg';
-import img3 from '../Img/Web (3).svg';
-import img4 from '../Img/Web (3).svg';
+import web from '../Img/webDev.jpg';
+import js from '../Img/js.jpg';
+import react from '../Img/react.jpg';
+import php from '../Img/php.jpg';
+import laravel from '../Img/laravel.jpg';
+import swe from '../Img/swd.png';
 
 const Srvcdata = [
   {
-    imgSrc:img1,
-    title:"Web Design"
+    imgSrc: web,
+    title: "Web Design",
   },
   {
-    imgSrc:img3,
-    title:"React"
+    imgSrc: js,
+    title: "Java Script",
   },
   {
-    imgSrc:img4,
-    title:"React"
+    imgSrc: react,
+    title: "React Js",
   },
   {
-    imgSrc:img4,
-    title:"React"
+    imgSrc: php,
+    title: "PHP",
   },
-]
+  {
+    imgSrc: laravel,
+    title: "Laravel",
+  },
+  {
+    imgSrc: swe,
+    title: "Software Developement",
+  }
+];
 
 export default Srvcdata;

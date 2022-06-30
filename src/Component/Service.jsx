@@ -1,6 +1,6 @@
 import React from "react";
-import Card from './Card';
-import Data from './Sdata';
+import Card from "./Card";
+import Data from "./Sdata";
 
 function Service() {
   return (
@@ -13,11 +13,9 @@ function Service() {
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row gy-3">
-              {
-                Data.map((val,inx)=>{
-                  return  <Card key={inx} src={val.imgSrc} title={val.title} />
-                })
-              }
+              {Data.map((val, inx) => {
+                return <Card key={inx} src={val.imgSrc} title={val.title} />;
+              })}
             </div>
           </div>
         </div>
