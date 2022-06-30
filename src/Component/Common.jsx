@@ -38,5 +38,4 @@ function Common(props) {
     </>
   );
 }
-
 export default Common;

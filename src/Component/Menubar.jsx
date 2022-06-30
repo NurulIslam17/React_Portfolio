@@ -50,15 +50,7 @@ function Menubar() {
                         About
                       </NavLink>
                     </li>
-                    <li className="nav-item">
-                      <NavLink
-                      
-                        className="nav-link"
-                        to="/skill"
-                      >
-                        Skill
-                      </NavLink>
-                    </li>
+
                     <li className="nav-item">
                       <NavLink
                       
